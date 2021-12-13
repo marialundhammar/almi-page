@@ -37,9 +37,11 @@
       </section>
 
       <section id="usp-container">
-        <h2>Varför Almi?</h2>
+        <div class="usp-section col-8">
+          <h2>Varför Almi?</h2>
+        </div>
 
-        <div class="usp-section">
+        <div class="usp-section col-8">
           <h3>Personlig Kontakt</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis, nibh quis porta sollicitudin, libero
@@ -47,7 +49,7 @@
             eget pretium est.
           </p>
         </div>
-        <div class="usp-section">
+        <div class="usp-section col-sm-12 col-lg-8">
           <h3>Almi ägs till 100% av staten</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis, nibh quis porta sollicitudin, libero
@@ -56,7 +58,7 @@
           </p>
         </div>
 
-        <div class="usp-section">
+        <div class="usp-section col-sm-12 col-lg-8">
           <h3>Från idé till verklighet</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis, nibh quis porta sollicitudin, libero
@@ -66,77 +68,88 @@
         </div>
       </section>
 
-      <section id="testamonia">
-        <img src="" alt="" />
+      <section id="testamonia" class="d-flex flex-column flex-lg-row align-items-center">
+        <div>
+          <img src="assets/images/almi-girl.png" alt="" />
+        </div>
 
-        <p id="citat">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna
-        </p>
+        <div class="col-sm-10 col-lg-6">
+          <p id="citat" class="d-flex align-items-center">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+            dolore magna
+          </p>
+        </div>
       </section>
 
-      <section id="loan-container" class="container fluid">
-        <div class="image-loan"></div>
+      <section id="loan-container" class="d-flex flex-column flex-lg-row">
+        <div class="image-loan bg-image"></div>
 
-        <div id="about-loan">
+        <div id="about-loan" class="d-flex flex-column">
           <h2>Tre olika uppstartslån – för olika behov</h2>
           <p>Almi erbjuder tre olika typer av lån, anpassade efter dina behov. Samtliga lån med en fast ränta på 5%.</p>
 
-          <img src="" alt="three different types of loans" />
+          <img src="assets/lånen.png" alt="three different types of loans" />
 
           <button type="button" class="btn-mobile btn">Ansök om lån</button>
         </div>
       </section>
 
-      <section id="charts">
-        <img src="" alt="bar chart" />
-        <img src="" alt="pie chart" />
+      <section id="charts" class="d-flex flex-column flex-lg-row justify-content-center">
+        <img src="assets/pie-chart.svg" alt="pie chart" />
+        <img src="assets/bar-chart.svg" alt="bar chart" />
       </section>
 
-      <section id="apply-container">
+      <section id="apply-container" class="d-flex flex-column">
         <h2>Så här ansöker du</h2>
-        <p>
+        <p class="col-8">
           Ska du bygga ett nytt företag från grunden eller står ditt företag inför en ny fas i utvecklingen? Det kan
           finnas många anledningar att söka ett lån. Almi stöttar dig när du inte kan finansiera allt du behöver på
           annat håll, utan behöver ytterligare en finansiär.
         </p>
 
-        <div class="apply-section">
-          <i class="far fa-lightbulb"></i>
-          <h3>Skriv ner din idé och skicka in din låneansökan</h3>
-        </div>
+        <div class="d-flex flex-column">
+          <div class="apply-section d-flex flex-row">
+            <i class="far fa-lightbulb icons"></i>
+            <h3>Skriv ner din idé och skicka in din låneansökan</h3>
+          </div>
 
-        <div class="apply-section">
-          <i class="far fa-lightbulb"></i>
-          <h3>Vi går igenom din ansökan</h3>
-        </div>
-        <div class="apply-section">
-          <i class="far fa-lightbulb"></i>
-          <h3>Du blir kontaktad av oss</h3>
-        </div>
-        <div class="apply-section">
-          <i class="far fa-lightbulb"></i>
-          <h3>Ärendet behandlas</h3>
-        </div>
+          <div class="apply-section d-flex flex-row">
+            <i class="far fa-lightbulb icons"></i>
+            <h3>Vi går igenom din ansökan</h3>
+          </div>
+          <div class="apply-section d-flex flex-row">
+            <i class="far fa-lightbulb icons"></i>
+            <h3>Du blir kontaktad av oss</h3>
+          </div>
+          <div class="apply-section d-flex flex-row">
+            <i class="far fa-lightbulb icons"></i>
+            <h3>Ärendet behandlas</h3>
+          </div>
 
-        <button type="button" class="btn-mobile btn">Ansök om lån</button>
+          <button type="button" class="btn-mobile btn">Ansök om lån</button>
+        </div>
       </section>
 
-      <section id="lisa-tor">
-        <div class="image-lisa-tor"></div>
-        <h2>Lisa och Tor lånade 25 000kr</h2>
+      <section id="lisa-tor" class="d-flex flex-column flex-lg-row">
+        <div class="image-lisa-tor bg-image"></div>
 
-        <p>Genom Almis uppstartslån kunde Lisa och Tor förverkliga sin dröm – ett gotländskt kafferosteri.</p>
+        <div class="d-flex flex-column lisa-tor-about">
+          <h2>Lisa och Tor lånade 25 000kr</h2>
 
-        <p>Läs Lisas och Tors företagsresa här</p>
+          <p>Genom Almis uppstartslån kunde Lisa och Tor förverkliga sin dröm – ett gotländskt kafferosteri.</p>
+
+          <p>Läs Lisas och Tors företagsresa här</p>
+        </div>
       </section>
 
-      <footer>
-        <a href="">kontakt</a>
-        <a href="">kontakt</a>
-        <a href="">kontakt</a>
-        <a href="">kontakt</a>
-        <a href="">kontakt</a>
+      <footer class="">
+        <div class="d-flex flex-column flex-lg-row">
+          <a href="">kontakt</a>
+          <a href="">kontakt</a>
+          <a href="">kontakt</a>
+          <a href="">kontakt</a>
+          <a href="">kontakt</a>
+        </div>
       </footer>
       <script src="https://kit.fontawesome.com/66af8f44a7.js" crossorigin="anonymous"></script>
     </div>
