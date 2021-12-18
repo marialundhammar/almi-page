@@ -4,14 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 
-    <link rel="stylesheet" href="https://use.typekit.net/esh6sig.css" />
-
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://use.typekit.net/esh6sig.css" />
 
     <link rel="stylesheet" href="style.css" />
 
@@ -19,136 +18,242 @@
   </head>
 
   <body>
-    <div class="contaner-fluid">
-      <section id="hero" class="d-flex flex-column justify-content-between">
-        <nav class="d-flex justify-content-end">
+<!--     <div class="container"> -->
+      <section id="hero" class="d-flex flex-column g-0 justify-content-between">
+        <nav class="navbar d-flex flex-row justify-content-between">
+          <div class="d-flex flex-row justify-content-start">
+            <a class="nav-link d-md-none" href="#loan-section-a">Lån</a>
+            <a class="nav-link d-md-none" href="#loan-section-a">Kontakt </a>
+          </div>
+
           <img id="logo-img" src="assets/logo-white.svg" alt="logo-almi" />
         </nav>
 
-        <div class="d-flex flex-column justify-content-end">
+        <div class="d-flex flex-column justify-content-end col-lg-8 pl-0 pr-0 ml-lg-5 mr-lg-auto mb-lg-auto">
           <div id="hero-section">
-            <h1>Vill du komma igång med ditt företag? Almi hjälper dig hela vägen!</h1>
+            <h1 class="col-lg-12 col-sm-12">
+              Vill du komma igång med ditt företag? <br />
+              Almi hjälper dig hela vägen!
+            </h1>
 
-            <p>Ansök om ditt uppstartslån redan idag</p>
-
-            <button type="button" class="btn-mobile btn">Ansök om lån</button>
+            <div class="button-section d-flex flex-column align-items-center align-items-lg-start px-5">
+              <div class="d-flex flex-row">
+                <p id="hero-p" class="col-4">Ansök om ditt uppstartslån redan idag</p>
+                <img src="assets/arrow.svg" alt="" />
+              </div>
+              <div class="px-5">
+                <button type="button" class="btn btn-pink">Ansök om lån</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="usp-container">
-        <div class="usp-section col-8">
-          <h2>Varför Almi?</h2>
+      <section id="usp-container" class="d-flex flex-row mx-md-5 my-4">
+        <div class="">
+          <div class="usp-section col-9 my-4">
+            <h2>Varför Almi?</h2>
+          </div>
+
+          <div class="usp-section col-sm-11 col-md-11 my-4">
+            <h3>Personlig Kontakt</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis, nibh quis porta sollicitudin,
+              libero lorem lacinia magna, sit amet efficitur nunc odio nec velit. Nam id facilisis enim, non pulvinar
+              nibh. Etiam eget pretium est.
+            </p>
+          </div>
+          <div class="usp-section col-md-11 my-4">
+            <h3>Almi ägs till 100% av staten</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis, nibh quis porta sollicitudin,
+              libero lorem lacinia magna, sit amet efficitur nunc odio nec velit. Nam id facilisis enim, non pulvinar
+              nibh. Etiam eget pretium est.
+            </p>
+          </div>
+
+          <div class="usp-section col-md-11 my-4">
+            <h3>Från idé till verklighet</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis, nibh quis porta sollicitudin,
+              libero lorem lacinia magna, sit amet efficitur nunc odio nec velit. Nam id facilisis enim, non pulvinar
+              nibh. Etiam eget pretium est.
+            </p>
+          </div>
+
+          <section id="testamonia" class="d-flex flex-column flex-md-row align-items-center my-5">
+            <img class="col-5 col-md-4 my-4" src="assets/images/almi-girl.svg" alt="" />
+
+            <div class="col-sm-11 col-md-7 citat-text">
+              <p id="citat" class="d-flex align-items-center">
+                "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna nonumy eirmod tempor invidunt ut labore et dolore."
+              </p>
+            </div>
+          </section>
         </div>
 
-        <div class="usp-section col-8">
-          <h3>Personlig Kontakt</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis, nibh quis porta sollicitudin, libero
-            lorem lacinia magna, sit amet efficitur nunc odio nec velit. Nam id facilisis enim, non pulvinar nibh. Etiam
-            eget pretium est.
-          </p>
-        </div>
-        <div class="usp-section col-sm-12 col-lg-8">
-          <h3>Almi ägs till 100% av staten</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis, nibh quis porta sollicitudin, libero
-            lorem lacinia magna, sit amet efficitur nunc odio nec velit. Nam id facilisis enim, non pulvinar nibh. Etiam
-            eget pretium est.
-          </p>
-        </div>
-
-        <div class="usp-section col-sm-12 col-lg-8">
-          <h3>Från idé till verklighet</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis, nibh quis porta sollicitudin, libero
-            lorem lacinia magna, sit amet efficitur nunc odio nec velit. Nam id facilisis enim, non pulvinar nibh. Etiam
-            eget pretium est.
-          </p>
+        <div id="squares" class="d-none d-md-block">
+          <img class="col-11" src="assets/squares-two.svg" alt="" />
         </div>
       </section>
 
-      <section id="testamonia" class="d-flex flex-column flex-lg-row align-items-center">
-        <div>
-          <img src="assets/images/almi-girl.png" alt="" />
-        </div>
+      <a id="loan-section-a"> </a>
 
-        <div class="col-sm-10 col-lg-6">
-          <p id="citat" class="d-flex align-items-center">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna
-          </p>
-        </div>
-      </section>
-
-      <section id="loan-container" class="d-flex flex-column flex-lg-row">
-        <div class="image-loan bg-image"></div>
-
-        <div id="about-loan" class="d-flex flex-column">
+      <section id="loan-container" class="d-flex flex-column justify-content-between">
+        <div id="about-loan" class="d-flex flex-column justify-content-center mx-md-5 px-4 py-5">
           <h2>Tre olika uppstartslån – för olika behov</h2>
-          <p>Almi erbjuder tre olika typer av lån, anpassade efter dina behov. Samtliga lån med en fast ränta på 5%.</p>
+          <p id="loan-p">
+            Almi erbjuder tre olika typer av lån, anpassade efter dina behov. Samtliga lån med en fast ränta på 5%.
+          </p>
+        </div>
 
-          <img src="assets/lånen.png" alt="three different types of loans" />
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center">
+          <div class="loan-section loan-purple my-3 mx-4 col-11 col-md-3">
+            <div class="mt-3" id="loan-img-little"></div>
 
-          <button type="button" class="btn-mobile btn">Ansök om lån</button>
+            <div class="about-dif-loan px-3 py-2">
+              <p class="about-loan-p">Det lilla lånet</p>
+
+              <p>
+                <i class="fas fa-dollar-sign"></i>
+                10 000 sek
+              </p>
+              <p>
+                <i class="fas fa-calendar-alt"></i>
+                3 månaders återbetalningsperiod
+              </p>
+            </div>
+          </div>
+
+          <div class="loan-section loan-blue my-3 mx-4 col-11 col-md-3">
+            <div class="mt-3" id="loan-img-middle"></div>
+
+            <div id="middle-loan" class="about-dif-loan px-3 py-2">
+              <p class="about-loan-p">Mellan lånet</p>
+              <p>
+                <i class="fas fa-dollar-sign"></i>
+                25 000 sek
+              </p>
+              <p>
+                <i class="fas fa-calendar-alt"></i>
+                6 månaders återbetalningsperiod
+              </p>
+            </div>
+          </div>
+
+          <div class="loan-section loan-green my-3 mx-4 col-11 col-md-3">
+            <div class = "mt-3" id="loan-img-big"></div>
+
+            <div id="big-loan" class="about-dif-loan px-3 py-2">
+              <p class="about-loan-p">Stora lånet</p>
+              <p>
+                <i class="fas fa-dollar-sign"></i>
+                20 000 sek
+              </p>
+              <p>
+                <i class="fas fa-calendar-alt"></i>
+                3 månaders återbetalningsperiod
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column align-items-center my-4">
+          <button type="button" class="btn btn-pink">Ansök om lån</button>
         </div>
       </section>
 
-      <section id="charts" class="d-flex flex-column flex-lg-row justify-content-center">
-        <img src="assets/pie-chart.svg" alt="pie chart" />
-        <img src="assets/bar-chart.svg" alt="bar chart" />
+      <section id="charts" class="d-flex flex-column flex-lg-row justify-content-center align-items-center mx-5 py-5">
+        <img class="col-10 col-lg-6 py-2" src="assets/pie-chart.svg" alt="pie chart" />
+
+        <img class="col-10 col-lg-6 py-3" src="assets/bar-chart.svg" alt="bar chart" />
       </section>
 
-      <section id="apply-container" class="d-flex flex-column">
-        <h2>Så här ansöker du</h2>
-        <p class="col-8">
-          Ska du bygga ett nytt företag från grunden eller står ditt företag inför en ny fas i utvecklingen? Det kan
-          finnas många anledningar att söka ett lån. Almi stöttar dig när du inte kan finansiera allt du behöver på
-          annat håll, utan behöver ytterligare en finansiär.
-        </p>
+      <section id="apply-container" class="d-flex flex-column justify-content-center align-items-center col-12 py-5">
 
-        <div class="d-flex flex-column">
-          <div class="apply-section d-flex flex-row">
-            <i class="far fa-lightbulb icons"></i>
-            <h3>Skriv ner din idé och skicka in din låneansökan</h3>
-          </div>
+        <div class="col-12 col-md-8 d-flex flex-column justify-content-center">
 
-          <div class="apply-section d-flex flex-row">
-            <i class="far fa-lightbulb icons"></i>
-            <h3>Vi går igenom din ansökan</h3>
-          </div>
-          <div class="apply-section d-flex flex-row">
-            <i class="far fa-lightbulb icons"></i>
-            <h3>Du blir kontaktad av oss</h3>
-          </div>
-          <div class="apply-section d-flex flex-row">
-            <i class="far fa-lightbulb icons"></i>
-            <h3>Ärendet behandlas</h3>
-          </div>
+        <div class="col-12 col-md-10">
 
-          <button type="button" class="btn-mobile btn">Ansök om lån</button>
+          <h2>Så här ansöker du</h2>
+          <p class = "">
+            Ska du bygga ett nytt företag från grunden eller står ditt företag inför en ny fas i utvecklingen? Det kan
+            finnas många anledningar att söka ett lån. Almi stöttar dig när du inte kan finansiera allt du behöver på
+            annat håll, utan behöver ytterligare en finansiär.
+          </p>
+
         </div>
+
+
+        <div class="d-flex flex-column col-10 align-it">
+          <div class="apply-section d-flex flex-row my-4 ">
+            <i class="far fa-lightbulb icons px-4"></i>
+            <h4><a href="#">Skriv ner din idé och skicka in din låneansökan</a></h4>
+          </div>
+
+          <div class="apply-section d-flex flex-row my-4 ">
+            <i class="fas fa-file icons px-4"></i>
+            <h4><a href="#">Vi går igenom din ansökan</a></h4>
+          </div>
+
+          <div class="apply-section d-flex flex-row my-4">
+            <i class="far fa-paper-plane icons px-4"></i>
+            <h4><a href="#">Du blir kontaktad av oss</a></h4>
+          </div>
+
+          <div class="apply-section d-flex flex-row my-4">
+            <i class="fas fa-check icons px-4"></i>
+            <h4><a href="#">Ärendet behandlas</a></h4>
+          </div>
+
+          <div class="d-flex flex-row align-items-center justify-content-center py-4">
+            <button type="button" class="btn btn-pink">Ansök om lån</button>
+          </div>
+        </div>
+
+        </div>
+
       </section>
 
-      <section id="lisa-tor" class="d-flex flex-column flex-lg-row">
-        <div class="image-lisa-tor bg-image"></div>
+      <section id="lisa-tor" class="d-flex flex-column flex-md-row justify-content-center py-5 col-11">
+        <div class="d-flex col-11 col-md-5  py-2 ">
+          <div class="image-lisa-tor "></div>
 
-        <div class="d-flex flex-column lisa-tor-about">
+        </div>
+        
+
+        <div class="d-flex flex-column justify-content-start lisa-tor-about px-3">
           <h2>Lisa och Tor lånade 25 000kr</h2>
 
           <p>Genom Almis uppstartslån kunde Lisa och Tor förverkliga sin dröm – ett gotländskt kafferosteri.</p>
 
-          <p>Läs Lisas och Tors företagsresa här</p>
+          <a href="#"
+            ><h4>Läs Lisas och Tors företagsresa här <i class="fas fa-arrow-right"></i></h4
+          ></a>
         </div>
       </section>
 
       <footer class="">
-        <div class="d-flex flex-column flex-lg-row">
-          <a href="">kontakt</a>
-          <a href="">kontakt</a>
-          <a href="">kontakt</a>
-          <a href="">kontakt</a>
-          <a href="">kontakt</a>
+        <div class="d-flex flex-row justify-content-start">
+          <div class="d-flex flex-column footer-section">
+            <h4>Våra tjänster</h4>
+            <a href="">Affärsutveckling</a>
+            <a href="">Lån</a>
+            <a href="">Riskkapital</a>
+          </div>
+          <div class="d-flex flex-column footer-section">
+            <h4>Kort om Almi</h4>
+            <a href="">Karriär</a>
+            <a href="">Om Webbplatsen</a>
+            <a href="">Hållbarhet</a>
+          </div>
+          <div class="d-flex flex-column footer-section">
+            <h4>Kontakt</h4>
+            <a href="">Kontakta Oss</a>
+            <a href="">Våra Rådgivare</a>
+            <a href="">Almi Invest</a>
+          </div>
         </div>
       </footer>
       <script src="https://kit.fontawesome.com/66af8f44a7.js" crossorigin="anonymous"></script>
