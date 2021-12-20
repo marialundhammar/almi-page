@@ -48,7 +48,7 @@ a:hover {
 
 nav a:hover {
   color: #fa1996;
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 #citat {
@@ -58,10 +58,40 @@ nav a:hover {
   font-size: 2.8vh;
 }
 
-.nav-link {
+.navbar-toggler {
   color: white;
-  font-size: 1.6rem;
+  border: white solid 1px !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
+
+.navbar-button {
+  color: white;
+}
+
+.navbar-nav {
+  color: white;
+}
+
+.nav-style {
+  color: white;
+}
+
+.menu {
+  font-size: 2rem;
+  color: white;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255) !important;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #fa1996 !important;
+}
+
 #logo-img {
   width: 8rem;
 }

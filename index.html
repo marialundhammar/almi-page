@@ -4,13 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
     <link rel="stylesheet" href="https://use.typekit.net/esh6sig.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
 
 
 
@@ -22,25 +19,37 @@
 
   <body>
 <!--     <div class="container"> -->
+
+  
       <section id="hero" class="d-flex flex-column g-0 justify-content-between">
-        <nav class="navbar d-flex flex-row justify-content-between">
-          <div class="d-flex flex-row justify-content-start mx-4 py-4">
-            <img id="logo-img" class =""src="assets/logo-white.svg" alt="logo-almi" /> 
 
-            <div class="d-none flex-row py-3">
-              <a class="nav-link" href="#loan-section-a">Lån</a>
-              <a class="nav-link " href="#loan-section-a">Om</a>
-
+        <nav class="navbar navbar-expand-lg navbar-light mx-5 ">
+          <div class="container-fluid">
+            <a class="navbar-brand p-2" href="#"> <img id="logo-img" class =""src="assets/logo-white.svg" alt="logo-almi" /> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars menu"></i>
+             <!--  <span class="navbar-toggler-icon"></span> -->
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav  p-2">
+                <li class="nav-item p-2">
+                  <a class="nav-link " href="#loan-section-a">Uppstartslån</a>
+                </li>
+                <li class="nav-item p-2">
+                  <a class="nav-link " href="#usp-section-a">Om Almi</a>
+                </li>
+                <li class="nav-item p-2">
+                  <a class="nav-link " href="#contact-a">Kontakt</a>
+                </li>
+  
+              </ul>
             </div>
-        
-       
-     
           </div>
-      
         </nav>
 
-        <div class="d-flex flex-column justify-content-end col-lg-8 pl-0 pr-0 ml-lg-5 mr-lg-auto mb-lg-5">
-          <div id="hero-section">
+
+        <div class="d-flex flex-column justify-content-end col-lg-8 pr-0 ml-lg-5 mr-lg-auto mb-lg-5">
+          <div id="hero-section" class ="m-lg-5">
             <h1 class="col-lg-12 col-sm-12">
               Vill du komma igång med ditt företag? <br />
               Almi hjälper dig hela vägen!
@@ -57,7 +66,7 @@
           </div>
         </div>
       </section>
-
+      <a id="usp-section-a"> </a>
       <section id="usp-container" class="d-flex flex-row mx-md-5 my-4">
         <div class="">
           <div class="usp-section col-9 my-4">
@@ -124,7 +133,7 @@
 
         <div class="d-flex flex-column flex-md-row justify-content-center align-items-center">
           <div class="loan-section loan-purple my-3 mx-4 col-11 col-md-3">
-            <div class="mt-3" id="loan-img-little"></div>
+            <div class="mt-3 mx-3" id="loan-img-little"></div>
 
             <div class="about-dif-loan px-3 py-2">
               <p class="about-loan-p">Det lilla lånet</p>
@@ -141,7 +150,7 @@
           </div>
 
           <div class="loan-section loan-blue my-3 mx-4 col-11 col-md-3">
-            <div class="mt-3" id="loan-img-middle"></div>
+            <div class="mt-3 mx-3" id="loan-img-middle"></div>
 
             <div id="middle-loan" class="about-dif-loan px-3 py-2">
               <p class="about-loan-p">Mellan lånet</p>
@@ -157,7 +166,7 @@
           </div>
 
           <div class="loan-section loan-green my-3 mx-4 col-11 col-md-3">
-            <div class = "mt-3" id="loan-img-big"></div>
+            <div class = "mt-3 mx-3" id="loan-img-big"></div>
 
             <div id="big-loan" class="about-dif-loan px-3 py-2">
               <p class="about-loan-p">Stora lånet</p>
@@ -182,17 +191,17 @@
         </div>
       </section>
 
-      <section id="charts" class="d-flex flex-column flex-md-row justify-content-center align-items-center mx-5 py-2">
-        <img class="col-10 col-md-4 py-2" src="assets/pie-chart.svg" alt="pie chart" />
+      <section id="charts" class="d-flex flex-column flex-md-row justify-content-center align-items-center mx-5 py-5">
+        <img class="col-10 col-md-3 py-2 mx-5" src="assets/pie-chart.svg" alt="pie chart" />
 
-        <img class="col-10 col-md-4 py-3" src="assets/bar-chart.svg" alt="bar chart" />
+        <img class="col-10 col-md-4 py-3 mx-5" src="assets/bar-chart.svg" alt="bar chart" />
       </section>
 
       <section id="apply-container" class="d-flex flex-column justify-content-center align-items-center col-12 py-5">
 
         <div class="col-12 col-md-8 d-flex flex-column justify-content-center">
 
-        <div class="col-12 col-md-11">
+        <div class="col-11 col-md-11 mx-3">
 
           <h2>Så här ansöker du</h2>
           <p class = "">
@@ -208,7 +217,7 @@
 
           <div class="apply-section d-flex flex-row my-4 ">
             <div class="px-2">
-              <i class="far fa-lightbulb icons col-2 "></i>
+              <i class="far fa-lightbulb icons col-2 px-4 pt-2 "></i>
             </div>
          
 
@@ -222,7 +231,7 @@
 
           <div class="apply-section d-flex flex-row my-4 ">
             <div class ="px-2">
-              <i class="fas fa-file icons col-2"></i>
+              <i class="fas fa-file icons col-2 px-4 pt-2"></i>
             </div>
             
 
@@ -237,7 +246,7 @@
           <div class="apply-section d-flex flex-row my-4">
 
             <div class="px-2">
-            <i class="far fa-paper-plane icons col-2 px-2 "></i>
+            <i class="far fa-paper-plane icons col-2 px-3 pt-2 "></i>
             </div>
 
             <div>
@@ -294,7 +303,7 @@
         </div>
       </section>
 
-
+      <a id="contact-a"> </a>
 
       <footer class="py-5">
 
@@ -331,7 +340,6 @@
       </footer>
       <script src="https://kit.fontawesome.com/66af8f44a7.js" crossorigin="anonymous"></script>
     </div>
-
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>

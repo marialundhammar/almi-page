@@ -1,21 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="324.314" height="296.496" viewBox="0 0 324.314 296.496">
-  <defs>
-    <clipPath id="clip-path">
-      <path id="Path_58" data-name="Path 58" d="M3.169,3.742,229.987,4.4l.548,189.937L3.716,193.679Z" transform="translate(0 0)" fill="#fff" stroke="#707070" stroke-width="1"/>
-    </clipPath>
-  </defs>
-  <g id="Group_83" data-name="Group 83" transform="translate(-177.183 -3242.567)">
-    <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(359.2 3543.922) rotate(-132)" clip-path="url(#clip-path)">
-      <g id="Layer_2" data-name="Layer 2" transform="translate(20.929 3.18)">
-        <g id="logan" transform="translate(0 0)">
-          <path id="Path_54" data-name="Path 54" d="M31.654,67.526.7,36.516A49.744,49.744,0,0,0,15.308,1l43.712.126A92.861,92.861,0,0,1,31.654,67.526Z" transform="translate(130.977 95)" fill="#ffafe1" stroke="#ffafe1" stroke-miterlimit="10" stroke-width="3.36"/>
-          <path id="Path_55" data-name="Path 55" d="M95.059,94.314l-43.712-.126A50.758,50.758,0,0,0,.839,43.71L.713.024A94.819,94.819,0,0,1,95.059,94.314Z" transform="translate(94.938 1.814)" fill="#ffafe1" stroke="#ffafe1" stroke-miterlimit="10" stroke-width="3.36"/>
-          <path id="Path_56" data-name="Path 56" d="M96.193,189.864A94.7,94.7,0,0,1,1.847,95.575a93.4,93.4,0,0,1,93.8-93.747l.126,43.685A50,50,0,0,0,47.24,82.693,50.551,50.551,0,0,0,131.678,131.5l30.953,31.01A92.9,92.9,0,0,1,96.193,189.864Z" transform="translate(0 0.011)" fill="#870aa0" stroke="#870aa0" stroke-miterlimit="10" stroke-width="3.36"/>
-        </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="414.772" height="306.994" viewBox="0 0 414.772 306.994">
+  <g id="Group_114" data-name="Group 114" transform="translate(-471.029 -3365.514)">
+    <g id="Group_105" data-name="Group 105" transform="translate(-682.135 2667.523)">
+      <g id="Group_102" data-name="Group 102" transform="translate(1313.486 698.498)">
+        <path id="Path_76" data-name="Path 76" d="M1389.036,698.814l-4.517,70.959a81.377,81.377,0,0,0-59.264,20.208l-46.923-53.418A152.032,152.032,0,0,1,1389.036,698.814Z" transform="translate(-1278.332 -698.498)" fill="#ffafe1" stroke="#ffafe1" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_103" data-name="Group 103" transform="translate(1261.523 736.562)">
+        <path id="Path_77" data-name="Path 77" d="M1313.486,710.811l46.923,53.418a82.011,82.011,0,0,0-7.481,115.61l-53.418,46.923C1243.826,863.371,1250.1,766.492,1313.486,710.811Z" transform="translate(-1261.523 -710.811)" fill="#ffafe1" stroke="#ffafe1" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_104" data-name="Group 104" transform="translate(1299.51 698.817)">
+        <path id="Path_78" data-name="Path 78" d="M1503.738,750.322c55.684,63.391,49.415,160.27-13.976,215.951s-160.27,49.415-215.951-13.976l53.418-46.923a81.92,81.92,0,1,0,66.749-135.818l4.51-70.955A151.989,151.989,0,0,1,1503.738,750.322Z" transform="translate(-1273.811 -698.601)" fill="#870aa0" stroke="#870aa0" stroke-miterlimit="10" stroke-width="1"/>
       </g>
     </g>
-    <text id="_38_kvinnor_62_män_beviljades_uppstartslån_under_2021" data-name="38% kvinnor
+    <g id="Group_83" data-name="Group 83" transform="translate(293.846 59.927)">
+      <text id="_38_kvinnor_62_män_beviljades_uppstartslån_under_2021" data-name="38% kvinnor
 62 % män 
-beviljades uppstartslån under 2021" transform="translate(177.183 3334.661)" fill="#870aa0" font-size="30" font-family="SofiaPro-Bold, Sofia Pro" font-weight="700"><tspan x="0" y="0">38% kvinnor</tspan><tspan x="0" y="46">62 % män </tspan><tspan font-size="14" font-family="SofiaPro-Regular, Sofia Pro" font-weight="400"><tspan x="0" y="76">beviljades uppstartslån under 2021</tspan></tspan></text>
+beviljades uppstartslån under 2021" transform="translate(177.184 3383.344)" fill="#870aa0" font-size="44" font-family="SofiaPro-Bold, Sofia Pro" font-weight="700"><tspan x="0" y="0">38% kvinnor</tspan><tspan x="0" y="68">62 % män </tspan><tspan font-size="20" font-family="SofiaPro-Regular, Sofia Pro" font-weight="400"><tspan x="0" y="111">beviljades uppstartslån under 2021</tspan></tspan></text>
+    </g>
   </g>
 </svg>
