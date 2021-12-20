@@ -10,7 +10,10 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://use.typekit.net/esh6sig.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/esh6sig.css">
+
+
+
 
     <link rel="stylesheet" href="style.css" />
 
@@ -21,10 +24,10 @@
 <!--     <div class="container"> -->
       <section id="hero" class="d-flex flex-column g-0 justify-content-between">
         <nav class="navbar d-flex flex-row justify-content-between">
-          <div class="d-flex flex-row justify-content-start mx-3">
-            <img id="logo-img" class ="col-6"src="assets/logo-white.svg" alt="logo-almi" /> 
+          <div class="d-flex flex-row justify-content-start mx-4 py-4">
+            <img id="logo-img" class =""src="assets/logo-white.svg" alt="logo-almi" /> 
 
-            <div class="d-flex flex-row py-3">
+            <div class="d-none flex-row py-3">
               <a class="nav-link" href="#loan-section-a">Lån</a>
               <a class="nav-link " href="#loan-section-a">Om</a>
 
@@ -33,13 +36,10 @@
        
      
           </div>
-
-
-        
-
+      
         </nav>
 
-        <div class="d-flex flex-column justify-content-end col-lg-8 pl-0 pr-0 ml-lg-5 mr-lg-auto mb-lg-auto">
+        <div class="d-flex flex-column justify-content-end col-lg-8 pl-0 pr-0 ml-lg-5 mr-lg-auto mb-lg-5">
           <div id="hero-section">
             <h1 class="col-lg-12 col-sm-12">
               Vill du komma igång med ditt företag? <br />
@@ -47,9 +47,8 @@
             </h1>
 
             <div class="button-section d-flex flex-column align-items-center align-items-lg-start px-5">
-              <div class="d-flex flex-row pt-4">
-                <p id="hero-p" class="col-4">Ansök om ditt uppstartslån redan idag</p>
-                <img src="assets/arrow.svg" alt="" />
+              <div class="d-flex flex-row pt-4 pb-3 col-7 col-md-5">
+                <img src="assets/arrow-ansok.svg" alt="">
               </div>
               <div class="px-5 pb-5 mb-5 pb-md-2 mb-md-1">
                 <button type="button" class="btn btn-pink">Ansök om lån</button>
@@ -91,11 +90,15 @@
             </p>
           </div>
 
-          <section id="testamonia" class="d-flex flex-column flex-md-row align-items-center my-5">
-            <img class="col-7 col-md-4 my-4" src="assets/images/almi-girl.svg" alt="" />
+          <section id="testamonia" class="d-flex flex-column flex-md-row justify-content-center align-items-center py-5">
+            <div class="d-flex img-citat mt-4 mb-3">
+              <img class="w-100" src="assets/images/almi-girl.png" alt="" />
 
-            <div class="col-sm-11 col-md-7 citat-text">
-              <p id="citat" class="d-flex align-items-center">
+            </div>
+       
+
+            <div class="citat-text d-flex col-11 col-md-7">
+              <p id="citat" class="">
                 "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
                 labore et dolore magna nonumy eirmod tempor invidunt ut labore et dolore."
               </p>
@@ -104,7 +107,7 @@
         </div>
 
         <div id="squares" class="d-none d-md-block col-4">
-          <img class="col-12" src="assets/squares-two.svg" alt="" />
+          <img class="col-12" src="assets/square-two.svg" alt="" />
         </div>
 
       </section>
@@ -114,7 +117,7 @@
       <section id="loan-container" class="d-flex flex-column pb-4 justify-content-between">
         <div id="about-loan" class="d-flex flex-column justify-content-center mx-md-5 px-4 py-5">
           <h2>Tre olika uppstartslån – för olika behov</h2>
-          <p id="loan-p">
+          <p id="loan-p" class="px-1">
             Almi erbjuder tre olika typer av lån, anpassade efter dina behov. Samtliga lån med en fast ränta på 5%.
           </p>
         </div>
@@ -158,14 +161,18 @@
 
             <div id="big-loan" class="about-dif-loan px-3 py-2">
               <p class="about-loan-p">Stora lånet</p>
-              <p>
-                <i class="fas fa-dollar-sign"></i>
-                20 000 sek
-              </p>
-              <p>
-                <i class="fas fa-calendar-alt"></i>
-                3 månaders återbetalningsperiod
-              </p>
+              <div class="loan-fact">
+                <p>
+                  <i class="fas fa-dollar-sign"></i>
+                  50 000 sek
+                </p>
+                <p>
+                  <i class="fas fa-calendar-alt"></i>
+                  12 månaders återbetalningsperiod
+                </p>
+
+              </div>
+
             </div>
           </div>
         </div>

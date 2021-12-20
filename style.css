@@ -10,7 +10,7 @@ body {
 
 h1 {
   font-size: 2.4rem;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   font-family: sofia-pro, sans-serif;
 }
@@ -51,33 +51,27 @@ nav a:hover {
   font-size: 1.7rem;
 }
 
-/* nav {
-  background: rgba(111, 111, 111, 0.468);
-} */
-
 #citat {
   font-family: sofia-pro-condensed, sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  font-size: 1.6rem;
-}
-
-#logo-img {
-  width: 8rem;
-  margin: 4%;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 2.8vh;
 }
 
 .nav-link {
   color: white;
   font-size: 1.6rem;
 }
+#logo-img {
+  width: 8rem;
+}
 
 #hero {
-  background-image: url("assets/images/hero-img.jpg");
+  background-image: url("assets/images/hero-img.png");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
-  background-position: bottom left;
+  background-position: bottom center;
 }
 
 #hero-section {
@@ -114,12 +108,16 @@ nav a:hover {
   background-color: #f4f4f4;
 }
 
+.img-citat {
+  width: 50%;
+}
+
 .loan-section {
   box-shadow: 0 6px 16px rgb(0 0 0 / 0.4);
 }
 
 #loan-img-little {
-  background-image: url("assets/images/little-loan.jpg");
+  background-image: url("assets/images/small-loan.png");
   height: 16rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -127,7 +125,7 @@ nav a:hover {
 }
 
 #loan-img-middle {
-  background-image: url("assets/images/middle-loan.jpg");
+  background-image: url("assets/images/middle-loan.png");
   height: 16rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -135,7 +133,7 @@ nav a:hover {
 }
 
 #loan-img-big {
-  background-image: url("assets/images/big-loan.jpg");
+  background-image: url("assets/images/big-loan.png");
   height: 16rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -171,7 +169,7 @@ nav a:hover {
 }
 
 .image-lisa-tor {
-  background-image: url("assets/images/lisa-tor.jpg");
+  background-image: url("assets/images/lisa-tor.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
