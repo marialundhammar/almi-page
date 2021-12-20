@@ -138,8 +138,9 @@ nav a:hover {
   background-color: #f4f4f4;
 }
 
-.img-citat {
-  width: 50%;
+.image-citat {
+  height: 20rem;
+  width: auto;
 }
 
 .loan-section {
