@@ -1,7 +1,7 @@
 # almi-page
 
 
---><a href="https://almi-mariahl.netlify.app/"> Almi One </a> <--
+--><a href="https://almi-mariahl.netlify.app/"> Almi </a> <--
 
 <p> Created a onepager for Almi using: 
 <ul>
